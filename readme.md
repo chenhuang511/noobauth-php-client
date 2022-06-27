@@ -22,7 +22,7 @@ Notice the ```redirectUri``` is the domain this application listening on your ma
 With local running, you may need modify for machine ```hosts``` file, separate the domains of NoobAuth and PHPClient to avoid the confusion about cookies of 2 applications.
 For example:
 * 127.0.0.1 noobauth.vn
-* 127.0.0.1 netclient.vn
+* 127.0.0.1 phpclient.vn
 
 # License
 
