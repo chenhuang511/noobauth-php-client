@@ -20,6 +20,9 @@ $provider = new \League\OAuth2\Client\Provider\GenericProvider([
 Notice the ```redirectUri``` is the domain this application listening on your machine.
 
 With local running, you may need modify for machine ```hosts``` file, separate the domains of NoobAuth and PHPClient to avoid the confusion about cookies of 2 applications.
+For example:
+* 127.0.0.1 noobauth.vn
+* 127.0.0.1 netclient.vn
 
 # License
 
